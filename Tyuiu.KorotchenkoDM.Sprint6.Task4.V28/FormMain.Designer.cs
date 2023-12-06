@@ -232,6 +232,8 @@ namespace Tyuiu.KorotchenkoDM.Sprint6.Task4.V28
             this.chartFunction_KDM.Location = new System.Drawing.Point(0, 0);
             this.chartFunction_KDM.Name = "chartFunction_KDM";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsVisibleInLegend = false;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chartFunction_KDM.Series.Add(series1);
